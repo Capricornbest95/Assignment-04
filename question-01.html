@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Assignment 03</title>
+</head>
+ 
+<body>
+
+
+
+   <style>
+   </style>
+
+
+
+   <!-- <p id="my-para">Lorem ipsum dolor sit, <span>amet consectetur adipisicing elit</span>. Nemo voluptas modi optio ipsum vitae eveniet aliquam iusto enim, doloremque, nam rem sit repudiandae nulla sequi aperiam? Vitae rem totam asperiores.</p>  -->
+
+   <!-- <input type="text" id="firstName" value="" />
+   <button onclick="getMyData()">Get Data</button> -->
+	
+<script>
+   var quizQuestions = [
+   {
+    question: "What is the capital of France?",
+    options: ["Paris", "Rome", "Madrid", "London"],
+    answer: "Paris"
+  },
+  {
+    question: "Who painted the Mona Lisa?",
+    options: ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+    answer: "Leonardo da Vinci"
+  },
+  {
+    question: "What is the largest planet in our solar system?",
+    options: ["Jupiter", "Saturn", "Mars", "Earth"],
+    answer: "Jupiter"
+  },
+  // Add more questions here...
+];
+
+for (let i = 0; i < quizQuestions.length; i++) {
+  const question = quizQuestions[i].question;
+  const options = quizQuestions[i].options;
+
+  console.log("Question:", question);
+  console.log("Options:", options.join(", "));
+  // Add code here to handle user input and check the answer
+}
+
+
+
+</script>
+
+</body>
+</html>
